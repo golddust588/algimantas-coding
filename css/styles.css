@@ -1,0 +1,273 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  font-size: 5.625rem; /*90px gal naudot bet jei padidyns srifta saite, tada tas nepadidies. Geriau procentas.
+    100% = 16px. Taigi rek 562 %. Taip pat 1 em = 16px, gal naudot kuri nori.
+    /*margin: 0 auto 0 auto ,cia naudojama jei reikia koreguoti h1 width, nes tada nusoka centravimas*/
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  line-height: 2;
+  color: #66bfbf;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66bfbf;
+  padding-bottom: 10px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+p {
+  line-height: 2;
+}
+a {
+  color: #fcffe7;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 70px auto;
+}
+
+header {
+  background-color: #66bfbf;
+  margin: 0;
+  padding: 0;
+  height: 2rem;
+  align-items: center;
+  /* position: fixed; */
+  width: 100%;
+}
+
+header:hover {
+  z-index: 10;
+}
+
+header nav {
+  vertical-align: auto;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 2rem;
+}
+
+header ul li {
+  padding: 0 1rem;
+}
+
+header ul li a {
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.top-container {
+  background-color: #fcffe7;
+  position: relative;
+  padding-top: 100px;
+  /* top: 2rem; */
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  width: 150px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+  width: 150px;
+}
+.skill-row {
+  width: 50%;
+  min-height: 200px;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
+
+.skill-row a {
+  margin: 0;
+}
+
+.skill-row a:hover {
+  text-decoration: underline solid 3px;
+  color: #30e3cb;
+}
+
+.skill-row h3 {
+  min-width: 200px;
+}
+
+.my-photo {
+  width: 25%;
+  height: auto;
+}
+.intro {
+  width: 40%;
+  margin: 40px auto 40px;
+}
+.computer {
+  width: 200px;
+  height: auto;
+  float: left;
+}
+.python {
+  width: 200px;
+  height: auto;
+  clear: left;
+  float: right;
+  /* padding-left: 30px; */
+}
+.python-paragraph {
+  clear: left;
+}
+.economics {
+  clear: right;
+  float: left;
+}
+.economics-paragraph {
+  clear: right;
+}
+
+.my-work {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-work a {
+  height: 250px;
+  width: 250px;
+  border: #11999e solid 2px;
+  border-radius: 3px;
+  color: black;
+  padding: 1rem;
+}
+
+.my-work a img {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.my-work a:hover {
+  box-shadow: 18px 13px 36px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 18px 13px 36px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 18px 13px 36px -3px rgba(0, 0, 0, 0.75);
+  transition: 0.3s;
+}
+
+.contact-me {
+  clear: left;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container a {
+  font-size: 1.4rem;
+}
+
+.footer-link {
+  color: #11999e;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 720px) {
+  .skill-row {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .middle-container img {
+    width: 300px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+  }
+
+  .my-work {
+    flex-direction: column;
+  }
+
+  .mountain-img {
+    width: 450px;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 200px;
+    width: 150px;
+  }
+  header ul li a {
+    padding: 0.4rem;
+  }
+}
+.skill-row {
+  width: 50%;
+  min-height: 200px;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
