@@ -265,9 +265,74 @@ header ul li a {
     padding: 0.4rem;
   }
 }
-.skill-row {
-  width: 50%;
-  min-height: 200px;
-  margin: 50px auto 50px auto;
-  text-align: left;
+
+@media screen and (max-width: 440px) {
+  body {
+    width: 100%;
+  }
+
+  .skill-row {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .middle-container img {
+    width: 250px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+  }
+
+  .my-work {
+    flex-direction: column;
+  }
+
+  .mountain-img {
+    width: 300px;
+  }
+
+  .top-cloud {
+    position: absolute;
+    right: 150px;
+    top: 50px;
+    width: 150px;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 150px;
+    width: 150px;
+  }
+
+  header {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+  }
+
+  header ul li {
+    padding: 0 0.4rem;
+  }
+
+  header ul li a {
+    padding: 0rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .intro {
+    width: 75%;
+  }
+
+  .contact-message {
+    width: 75%;
+  }
+
+  /* .footer-link {
+    padding-top: 0.8rem;
+  } */
 }
